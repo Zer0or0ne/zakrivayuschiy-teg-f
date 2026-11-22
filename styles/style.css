@@ -311,3 +311,11 @@
   height: 39px;
   flex-shrink: 0;
 }
+
+@supports (paint-order: stroke fill) {
+  .card__label {
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+    paint-order: stroke fill;
+    text-shadow: none;
+  }
+}
