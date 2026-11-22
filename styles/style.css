@@ -312,7 +312,7 @@
   flex-shrink: 0;
 }
 
-@supports (paint-order: stroke fill) {
+@supports (-webkit-text-stroke: 1px black) {
   .card__label {
     -webkit-text-stroke: 1px var(--text-stroke-color);
     paint-order: stroke fill;
