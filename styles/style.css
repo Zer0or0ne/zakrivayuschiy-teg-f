@@ -116,8 +116,8 @@
   font-family: var(--accent-font), "Courier New", monospace;
   font-size: 0.875rem;
   text-transform: uppercase;
-  color: #000;                                  /* чёрный текст */
-  text-shadow: 1px 1px 0 #fff;                  /* fallback: белая тень-обводка */
+  color: #000;
+  text-shadow: 1px 1px 0 #fff;
 }
 
 .card__content {
