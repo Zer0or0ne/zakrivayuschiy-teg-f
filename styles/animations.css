@@ -12,8 +12,11 @@
 .like-icon {
   width: 39px;
   height: 36px;
-  transform-origin: center;
   overflow: visible;
+}
+
+.like-icon .heart {
+  transform-origin: center;
 }
 
 .like-icon .contour {
